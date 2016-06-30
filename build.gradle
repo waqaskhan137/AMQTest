@@ -1,0 +1,19 @@
+group 'ActiveMQTest'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    // https://mvnrepository.com/artifact/org.apache.activemq/activemq-core
+    compile group: 'org.apache.activemq', name: 'activemq-core', version: '5.7.0'
+// https://mvnrepository.com/artifact/org.slf4j/slf4j-simple
+    compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.6.1'
+
+}
